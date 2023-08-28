@@ -3,8 +3,10 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Gallery, { Profile } from './Gallery';
+import Gallery from './Gallery';
 import { Profile1 } from './App';
+import { Profile2 } from './App';
+import { PackingList } from './App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -12,6 +14,8 @@ root.render(
     <App />
     <Gallery/>
     <Profile1/>
+    <Profile2/>
+    <PackingList/>
   </React.StrictMode>
 );
 
